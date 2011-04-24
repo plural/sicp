@@ -12,7 +12,7 @@
 
 ; given three numbers, return the sum of the squares of the largest 2
 (define (sum-of-squares-largest x y z)
-  (cond 
+  (cond
     ((and (>= x z) (>= y z)) (sum-of-squares x y))
     ((and (>= x y) (>= z y)) (sum-of-squares x z))
     ((and (>= y x) (>= z x)) (sum-of-squares y z))))

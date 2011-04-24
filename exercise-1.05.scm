@@ -17,7 +17,7 @@
 ; The expansion and evaluation is along these lines:
 ;   (if (= x 0) 0 (p))
 ;   (if (#f) 0 (p))
-;   0 
+;   0
 ; (p) in normal-order remains unexpanded until its value is needed.
 ;
 ; In applicative-order evaluation, the values are expanded before the if

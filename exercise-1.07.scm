@@ -38,7 +38,7 @@
 ;   4e+24
 ;   (sqrt-iter 1.0 16e49)
 ;   <<<infinite sadness>>>
- 
+;
 ; The large number situation basically happens because of overflow in the
 ; square and comparison operations which cause good enough guesses to be thrown
 ; out after an operation inflates their value and takes them out of the realm of
