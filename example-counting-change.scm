@@ -1,4 +1,4 @@
-; exercise 1.11 - counting change
+; challenge for section 1.2.2 - counting change
 
 (define (count-change amount)
   (cc amount 5))
@@ -19,7 +19,7 @@
         ((= kinds-of-coins 4) 25)
         ((= kinds-of-coins 5) 50)))
 
-; exercise (challenge) - design a better algorithm for computing the result.
+; Challenge - design a better algorithm for computing the result.
 ; The above is a tree-recursive process.
 ; Can a tail recursive process be used instead?
 ; It would be good to test the results from the two as well.
