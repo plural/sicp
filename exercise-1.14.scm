@@ -25,7 +25,6 @@
 ; 50
 ; > (count-change 100) Calls: 17445
 ; 292
-; procedure is roughly exponential in space and time.
 (define (count-change amount)
   (define return (cc amount 5))
   (display "Calls: ") (display calls) (display "\n")
